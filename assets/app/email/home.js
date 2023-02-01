@@ -1,0 +1,1 @@
+"use strict";$(function(){$("#select-all").on("change",function(){var isChecked=$(this).is(":checked");if(isChecked){$(".mail-checkbox").attr("checked",true)}else{$(".mail-checkbox").attr("checked",false)}})});
